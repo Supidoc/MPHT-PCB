@@ -3926,7 +3926,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 60.96) (xy 199.39 63.5)
+			(xy 209.55 60.96) (xy 209.55 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3946,7 +3946,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 68.58) (xy 199.39 69.85)
+			(xy 209.55 68.58) (xy 209.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4156,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 74.93) (xy 199.39 78.74)
+			(xy 209.55 74.93) (xy 209.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4176,6 +4176,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 68.58) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6684f324-4cfd-4725-add7-48666914d5ab")
+	)
+	(wire
+		(pts
 			(xy 88.9 90.17) (xy 88.9 86.36)
 		)
 		(stroke
@@ -4186,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 199.39 78.74)
+			(xy 176.53 78.74) (xy 209.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4653,6 +4663,17 @@
 			(justify left)
 		)
 		(uuid "7d7e4ded-891d-4567-818a-e539c660a238")
+	)
+	(hierarchical_label "SLEEP_CTRL_PIN"
+		(shape input)
+		(at 187.96 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91f8c6d4-862e-499e-bb85-1fda8a83a312")
 	)
 	(hierarchical_label "CHRG_STAT1"
 		(shape input)
@@ -5451,7 +5472,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 199.39 60.96 0)
+		(at 209.55 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5462,7 +5483,7 @@
 		(fields_autoplaced yes)
 		(uuid "2db64d80-264a-4137-a616-555fbb36db9f")
 		(property "Reference" "#PWR0141"
-			(at 199.39 64.77 0)
+			(at 209.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5473,7 +5494,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 199.39 56.8269 0)
+			(at 209.55 56.8269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5483,7 +5504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 60.96 0)
+			(at 209.55 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 60.96 0)
+			(at 209.55 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 60.96 0)
+			(at 209.55 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6100,7 +6121,7 @@
 	)
 	(symbol
 		(lib_id "db:diode/05.035.0031.0002")
-		(at 199.39 72.39 270)
+		(at 209.55 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6111,7 +6132,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cc4ea00-2ddb-4d96-a1b8-685d0931053b")
 		(property "Reference" "D104"
-			(at 202.819 72.1303 90)
+			(at 212.979 72.1303 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6122,7 +6143,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 202.819 74.5546 90)
+			(at 212.979 74.5546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6133,7 +6154,7 @@
 			)
 		)
 		(property "Footprint" "diode:D_0603"
-			(at 199.39 72.39 90)
+			(at 209.55 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6165,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}diode/DS_LITEON_LTST-C190GKT.pdf"
-			(at 199.39 72.39 90)
+			(at 209.55 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,7 +6176,7 @@
 			)
 		)
 		(property "Description" "Green LED"
-			(at 194.945 72.39 0)
+			(at 205.105 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6166,7 +6187,7 @@
 			)
 		)
 		(property "Category" "diode"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6198,7 @@
 			)
 		)
 		(property "MFR" "Lite-On"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6188,7 +6209,7 @@
 			)
 		)
 		(property "Series" "LTST"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6199,7 +6220,7 @@
 			)
 		)
 		(property "MFR#" "LTST-C190GKT"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6210,7 +6231,7 @@
 			)
 		)
 		(property "Rating" "2v1 20mA 569nm"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,7 +6242,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6253,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +6264,7 @@
 			)
 		)
 		(property "Dist1#" "160-LTST-C190GKTCT-ND"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6275,7 @@
 			)
 		)
 		(property "Dist2" "mouser"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6265,7 +6286,7 @@
 			)
 		)
 		(property "Dist2#" "859-LTST-C190GKT"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +6297,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6287,7 +6308,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,7 +6319,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6330,7 @@
 			)
 		)
 		(property "Version" "2"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6341,7 @@
 			)
 		)
 		(property "Modified" "2026-03-31 22:36:44"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6331,7 +6352,7 @@
 			)
 		)
 		(property "FP" "D_0603"
-			(at 199.39 72.39 0)
+			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7857,7 +7878,7 @@
 	)
 	(symbol
 		(lib_id "db:resistor/00.018.0009.0005")
-		(at 199.39 66.04 0)
+		(at 209.55 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7868,7 +7889,7 @@
 		(fields_autoplaced yes)
 		(uuid "be3c2225-7ce1-4454-bf9c-b8eb3c3b231f")
 		(property "Reference" "R115"
-			(at 200.914 64.8278 0)
+			(at 211.074 64.8278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7879,7 +7900,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 200.914 67.2521 0)
+			(at 211.074 67.2521 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7890,7 +7911,7 @@
 			)
 		)
 		(property "Footprint" "passive:R_0603"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +7922,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_Resistors_Yageo.pdf"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7912,7 +7933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7923,7 +7944,7 @@
 			)
 		)
 		(property "Category" "resistor"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7934,7 +7955,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7945,7 +7966,7 @@
 			)
 		)
 		(property "Series" "RC_L "
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,7 +7977,7 @@
 			)
 		)
 		(property "MFR#" "RC0603FR-071KL"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7988,7 @@
 			)
 		)
 		(property "Rating" "100mW, 1%"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7999,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,7 +8010,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +8021,7 @@
 			)
 		)
 		(property "Dist1#" "311-1.00KHRCT-ND"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +8032,7 @@
 			)
 		)
 		(property "Dist2" "none"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +8043,7 @@
 			)
 		)
 		(property "Dist2#" ""
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8033,7 +8054,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +8065,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8055,7 +8076,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +8087,7 @@
 			)
 		)
 		(property "Version" "1"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,7 +8098,7 @@
 			)
 		)
 		(property "Modified" "2026-02-11 09:17:49"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8088,7 +8109,7 @@
 			)
 		)
 		(property "FP" "R_0603"
-			(at 199.39 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -263,7 +263,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1247,7 +1247,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2559,7 +2559,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "diode:D_0603 "
+			(property "ki_fp_filters" "diode:D_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8904,16 +8904,6 @@
 		)
 		(uuid "68298608-52bb-48d1-9041-6522e3522d31")
 	)
-	(text "Check limits again\n"
-		(exclude_from_sim no)
-		(at 31.75 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7715ffb4-5126-4af4-97ef-8bb51e993f44")
-	)
 	(text "Fuel Gauge\n"
 		(exclude_from_sim no)
 		(at 162.306 29.464 0)
@@ -8956,7 +8946,7 @@
 		)
 		(uuid "be518eb1-446a-4e3e-9194-7af01619cd26")
 	)
-	(text "1100mA in current limit\n4V2 Battery Voltage"
+	(text "1100mA in current limit\n+4V2 Battery Voltage"
 		(exclude_from_sim no)
 		(at 64.516 68.834 0)
 		(effects
@@ -9039,16 +9029,10 @@
 		(uuid "5add4376-ef96-48c9-a276-53344b4a272c")
 	)
 	(junction
-		(at 60.96 105.41)
+		(at 55.88 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "821167cc-2a42-4289-8190-27fd983ca83c")
-	)
-	(junction
-		(at 72.39 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8244bad6-2047-4f4f-aeb7-0436705a64cb")
 	)
 	(junction
 		(at 127 105.41)
@@ -9057,7 +9041,7 @@
 		(uuid "82e0535b-b061-4fcf-91de-b23520d86c95")
 	)
 	(junction
-		(at 60.96 113.03)
+		(at 55.88 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8548058b-2437-462a-afe7-5977ae6e7810")
@@ -9198,7 +9182,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 113.03) (xy 60.96 124.46)
+			(xy 55.88 113.03) (xy 55.88 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9265,16 +9249,6 @@
 			(type default)
 		)
 		(uuid "228418c7-aeac-4a77-a615-9e91f6d39fcc")
-	)
-	(wire
-		(pts
-			(xy 72.39 105.41) (xy 72.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d19918-2d93-4b52-b3de-973ed126a7ad")
 	)
 	(wire
 		(pts
@@ -9568,7 +9542,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 105.41) (xy 60.96 105.41)
+			(xy 55.88 105.41) (xy 77.47 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9668,7 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 113.03) (xy 77.47 113.03)
+			(xy 55.88 113.03) (xy 77.47 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9748,7 +9722,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 105.41) (xy 60.96 106.68)
+			(xy 55.88 105.41) (xy 55.88 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9805,16 +9779,6 @@
 			(type default)
 		)
 		(uuid "85ac89f9-6271-41b8-a51f-a1ecf4c4cded")
-	)
-	(wire
-		(pts
-			(xy 72.39 105.41) (xy 77.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86050def-f2ba-4fa3-be3a-3c4a430b3502")
 	)
 	(wire
 		(pts
@@ -9958,16 +9922,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 105.41) (xy 72.39 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0a9098-4e86-4502-95fc-06e7586f2545")
-	)
-	(wire
-		(pts
 			(xy 105.41 109.22) (xy 105.41 113.03)
 		)
 		(stroke
@@ -9998,7 +9952,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 60.96 113.03)
+			(xy 55.88 111.76) (xy 55.88 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10235,6 +10189,17 @@
 			(type default)
 		)
 		(uuid "fe0f153c-e084-4a79-8102-a43a62c2a5db")
+	)
+	(hierarchical_label "BUCK_EN"
+		(shape input)
+		(at 72.39 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e6e5b7c-817a-4a4b-93d7-6c5d8df46290")
 	)
 	(hierarchical_label "CHRG_STAT1"
 		(shape output)
@@ -13692,7 +13657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 124.46 0)
+		(at 55.88 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13703,7 +13668,7 @@
 		(fields_autoplaced yes)
 		(uuid "514e024a-a101-4b70-8e91-40ff9cd8c350")
 		(property "Reference" "#PWR023"
-			(at 60.96 130.81 0)
+			(at 55.88 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13714,7 +13679,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 128.5931 0)
+			(at 55.88 128.5931 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13725,7 +13690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 124.46 0)
+			(at 55.88 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13736,7 +13701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 124.46 0)
+			(at 55.88 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13747,7 +13712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 124.46 0)
+			(at 55.88 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14264,7 +14229,7 @@
 	)
 	(symbol
 		(lib_id "db:capacitor/01.018.0008.0001")
-		(at 60.96 109.22 0)
+		(at 55.88 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14275,7 +14240,7 @@
 		(fields_autoplaced yes)
 		(uuid "781b7b42-7b5b-43f8-a9e6-789b7185a992")
 		(property "Reference" "C5"
-			(at 62.9285 108.0078 0)
+			(at 57.8485 108.0078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14286,7 +14251,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 62.9285 110.4321 0)
+			(at 57.8485 110.4321 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14297,7 +14262,7 @@
 			)
 		)
 		(property "Footprint" "passive:C_0603"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14308,7 +14273,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_USER_DATASHEET_DIR}passive/DS_CC0603MRX5R6BB106.pdf"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14319,7 +14284,7 @@
 			)
 		)
 		(property "Description" "MLCC"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14330,7 +14295,7 @@
 			)
 		)
 		(property "Category" "capacitor"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14341,7 +14306,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14352,7 +14317,7 @@
 			)
 		)
 		(property "Series" "CC-X5R"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14363,7 +14328,7 @@
 			)
 		)
 		(property "MFR#" "CC0603MRX5R6BB106"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14374,7 +14339,7 @@
 			)
 		)
 		(property "Rating" "10V 20%"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14385,7 +14350,7 @@
 			)
 		)
 		(property "Remarks" ""
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14396,7 +14361,7 @@
 			)
 		)
 		(property "Dist1" "digikey"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14407,7 +14372,7 @@
 			)
 		)
 		(property "Dist1#" "311-1817-1-ND"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14418,7 +14383,7 @@
 			)
 		)
 		(property "Dist2" "none"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14429,7 +14394,7 @@
 			)
 		)
 		(property "Dist2#" ""
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14440,7 +14405,7 @@
 			)
 		)
 		(property "Dist3" "none"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14451,7 +14416,7 @@
 			)
 		)
 		(property "Dist3#" ""
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14462,7 +14427,7 @@
 			)
 		)
 		(property "Active" "1"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14473,7 +14438,7 @@
 			)
 		)
 		(property "Version" "1"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14484,7 +14449,7 @@
 			)
 		)
 		(property "Modified" "2026-03-22 17:13:24"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14495,7 +14460,7 @@
 			)
 		)
 		(property "FP" "C_0603"
-			(at 60.96 109.22 0)
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
