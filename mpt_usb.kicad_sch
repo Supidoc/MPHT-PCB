@@ -70,84 +70,7 @@
 					)
 				)
 			)
-			(property "Remarks" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist3" "none"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist2" "mouser"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist1" "digikey"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Category" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR#" "USB4105-GF-A-120"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Series" "USB4105"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "FP" "GCT_USB4105GFA120"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -169,7 +92,7 @@
 					)
 				)
 			)
-			(property "Dist1#" "2073-USB4105-GF-A-120CT-ND"
+			(property "Series" "USB4105"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -180,7 +103,7 @@
 					)
 				)
 			)
-			(property "Modified" "2026-03-22 15:44:39"
+			(property "MFR#" "USB4105-GF-A-120"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -202,7 +125,7 @@
 					)
 				)
 			)
-			(property "Version" "1"
+			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -213,7 +136,29 @@
 					)
 				)
 			)
-			(property "Active" "1"
+			(property "Dist1" "digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist1#" "2073-USB4105-GF-A-120CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2" "mouser"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -235,7 +180,62 @@
 					)
 				)
 			)
+			(property "Dist3" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Active" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Version" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Modified" "2026-03-22 15:44:39"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FP" "GCT_USB4105GFA120"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -257,7 +257,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "connector:GCT_USB4105GFA120"
+			(property "ki_fp_filters" "connector:GCT_USB4105GFA120 "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -835,62 +835,7 @@
 					)
 				)
 			)
-			(property "Remarks" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist3" "none"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist2" "mouser"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Category" "ic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist1" "digikey"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "FP" "UFDFN06_1P6X1P6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -923,17 +868,6 @@
 					)
 				)
 			)
-			(property "Dist1#" "RCLAMP0854P.TCTCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "MFR#" "RCLAMP0854P.TCT"
 				(at 0 0 0)
 				(show_name no)
@@ -956,7 +890,7 @@
 					)
 				)
 			)
-			(property "Modified" "2026-03-25 12:25:46"
+			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -967,7 +901,7 @@
 					)
 				)
 			)
-			(property "Version" "2"
+			(property "Dist1" "digikey"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -978,7 +912,18 @@
 					)
 				)
 			)
-			(property "Active" "1"
+			(property "Dist1#" "RCLAMP0854P.TCTCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2" "mouser"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1000,7 +945,62 @@
 					)
 				)
 			)
+			(property "Dist3" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Active" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Version" "2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Modified" "2026-03-25 12:25:46"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FP" "UFDFN06_1P6X1P6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1022,7 +1022,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:UFDFN06_1P6X1P6"
+			(property "ki_fp_filters" "package:UFDFN06_1P6X1P6 "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1773,51 +1773,7 @@
 					)
 				)
 			)
-			(property "Remarks" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist3" "none"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist2" "mouser"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Category" "inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist1" "digikey"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1839,17 +1795,6 @@
 					)
 				)
 			)
-			(property "MFR#" "MPZ1608S331ATA00"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Series" "MPZ"
 				(at 0 0 0)
 				(show_name no)
@@ -1861,18 +1806,7 @@
 					)
 				)
 			)
-			(property "FP" "L_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist1#" "445-MPZ1608S331ATA00CT-ND"
+			(property "MFR#" "MPZ1608S331ATA00"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1894,7 +1828,7 @@
 					)
 				)
 			)
-			(property "Modified" "2026-03-22 16:37:17"
+			(property "Remarks" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1905,7 +1839,7 @@
 					)
 				)
 			)
-			(property "Version" "1"
+			(property "Dist1" "digikey"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1916,7 +1850,18 @@
 					)
 				)
 			)
-			(property "Active" "1"
+			(property "Dist1#" "445-MPZ1608S331ATA00CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2" "mouser"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1938,7 +1883,62 @@
 					)
 				)
 			)
+			(property "Dist3" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist3#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Active" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Version" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Modified" "2026-03-22 16:37:17"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FP" "L_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1960,7 +1960,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:L_0603"
+			(property "ki_fp_filters" "passive:L_0603 "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2321,17 +2321,6 @@
 					)
 				)
 			)
-			(property "Dist3#" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Category" "resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -2343,51 +2332,7 @@
 					)
 				)
 			)
-			(property "Dist3" "none"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist2" "none"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist1" "digikey"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "MFR" "Yageo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "FP" "R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2420,51 +2365,7 @@
 					)
 				)
 			)
-			(property "Dist1#" "311-5.10KHRCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Modified" "2026-03-22 16:51:27"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Rating" "100mW, 1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Version" "1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Active" "1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2486,7 +2387,106 @@
 					)
 				)
 			)
+			(property "Dist1" "digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist1#" "311-5.10KHRCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist2#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist3" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist3#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Active" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Version" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Modified" "2026-03-22 16:51:27"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FP" "R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2508,7 +2508,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603"
+			(property "ki_fp_filters" "passive:R_0603 "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2638,17 +2638,6 @@
 					)
 				)
 			)
-			(property "Dist3#" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Category" "resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -2660,51 +2649,7 @@
 					)
 				)
 			)
-			(property "Dist3" "none"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist2" "none"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist1" "digikey"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "MFR" "Yageo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "FP" "R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2737,51 +2682,7 @@
 					)
 				)
 			)
-			(property "Modified" "2026-03-22 16:53:08"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dist1#" "13-RC0603FR-0733RLCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Rating" "100mW, 1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Version" "1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Active" "1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2803,7 +2704,106 @@
 					)
 				)
 			)
+			(property "Dist1" "digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist1#" "13-RC0603FR-0733RLCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist2" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Dist2#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist3" "none"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dist3#" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Active" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Version" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Modified" "2026-03-22 16:53:08"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FP" "R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2825,7 +2825,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603"
+			(property "ki_fp_filters" "passive:R_0603 "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
