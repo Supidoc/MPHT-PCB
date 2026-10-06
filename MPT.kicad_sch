@@ -266,7 +266,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -593,7 +593,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603_DNP "
+			(property "ki_fp_filters" "passive:R_0603_DNP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -910,7 +910,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1222,7 +1222,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "switch:OS102011MA1QN1_CNK "
+			(property "ki_fp_filters" "switch:OS102011MA1QN1_CNK"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1754,7 +1754,7 @@
 		)
 		(uuid "12cc2511-dd0d-49b6-8082-857cae3f2e5f")
 	)
-	(text "ToDos:\n- Mounting Holes\n- Real Time Clock Module\n- Control Switch\n- Display\n- Replace Power LED with right angle variant\n- Maybe a Buzzer"
+	(text "ToDos:\n- Mounting Holes\n- Real Time Clock Module (Nico)\n- Control Switch\n   - RC Filter für Debounce\n- Display\n- Replace Power LED with right angle variant\n- Maybe a Buzzer"
 		(exclude_from_sim no)
 		(at 48.006 133.604 0)
 		(effects
@@ -4185,6 +4185,62 @@
 			(project "MPT"
 				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 17.78)
+		(size 31.75 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "29fc7d94-8fee-43e7-bab5-72b4e39e651f")
+		(property "Sheetname" "RTC"
+			(at 68.58 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mpt_rtc.kicad_sch"
+			(at 68.58 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 68.58 27.94 180)
+			(uuid "73320ddb-6985-4f8b-8e6b-9dd8335f4cd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MPT"
+				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306"
+					(page "5")
 				)
 			)
 		)

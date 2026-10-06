@@ -257,7 +257,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "connector:GCT_USB4105GFA120 "
+			(property "ki_fp_filters" "connector:GCT_USB4105GFA120"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1022,7 +1022,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:UFDFN06_1P6X1P6 "
+			(property "ki_fp_filters" "package:UFDFN06_1P6X1P6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1960,7 +1960,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:L_0603 "
+			(property "ki_fp_filters" "passive:L_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2508,7 +2508,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2825,7 +2825,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

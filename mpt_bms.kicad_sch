@@ -263,7 +263,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -591,7 +591,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -919,7 +919,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1247,7 +1247,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1575,7 +1575,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1903,7 +1903,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "diode:D_0603 "
+			(property "ki_fp_filters" "diode:D_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3230,7 +3230,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:L_3.2mmx2.5mm "
+			(property "ki_fp_filters" "passive:L_3.2mmx2.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3619,7 +3619,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "misc:battery_holder_aaa_right_angle_right "
+			(property "ki_fp_filters" "misc:battery_holder_aaa_right_angle_right"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4076,7 +4076,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "misc:battery_holder_aaa_right_angle_left "
+			(property "ki_fp_filters" "misc:battery_holder_aaa_right_angle_left"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4497,7 +4497,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "package:WSON-6-1EP_2x2mm_P0.65mm "
+			(property "ki_fp_filters" "package:WSON-6-1EP_2x2mm_P0.65mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4888,7 +4888,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5205,7 +5205,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5522,7 +5522,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5839,7 +5839,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6156,7 +6156,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6473,7 +6473,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:R_0603 "
+			(property "ki_fp_filters" "passive:R_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
