@@ -511,7 +511,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MPHT.kicad_pro",
+    "filename": "MPT.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -666,8 +666,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "MPHT.kicad_sch",
-        "name": "MPHT",
+        "filename": "MPT.kicad_sch",
+        "name": "MPT",
         "uuid": "328ebaa0-d01b-4b80-b614-bb0154e8d306"
       }
     ],
@@ -677,7 +677,7 @@
   "sheets": [
     [
       "328ebaa0-d01b-4b80-b614-bb0154e8d306",
-      "MPHT"
+      "MPT"
     ],
     [
       "0397894e-b0a8-431f-a372-a41893fdbb8f",
