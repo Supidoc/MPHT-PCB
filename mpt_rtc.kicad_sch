@@ -192,7 +192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed64f7ea-7330-410f-8f3d-1da1f3c534e5")
-		(property "Reference" "R7"
+		(property "Reference" "R25"
 			(at 133.35 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -256,7 +256,7 @@
 		(instances
 			(project "MPT"
 				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306/29fc7d94-8fee-43e7-bab5-72b4e39e651f"
-					(reference "R7")
+					(reference "R25")
 					(unit 1)
 				)
 			)
