@@ -4509,7 +4509,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 17.78)
+		(at 54.61 148.59)
 		(size 31.75 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4525,7 +4525,7 @@
 		)
 		(uuid "29fc7d94-8fee-43e7-bab5-72b4e39e651f")
 		(property "Sheetname" "RTC"
-			(at 68.58 17.0684 0)
+			(at 54.61 147.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4536,7 +4536,7 @@
 			)
 		)
 		(property "Sheetfile" "mpt_rtc.kicad_sch"
-			(at 68.58 38.6846 0)
+			(at 54.61 169.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4547,7 +4547,7 @@
 			)
 		)
 		(pin "I2C_SDA" input
-			(at 68.58 27.94 180)
+			(at 54.61 158.75 180)
 			(uuid "73320ddb-6985-4f8b-8e6b-9dd8335f4cd7")
 			(effects
 				(font
@@ -4560,6 +4560,52 @@
 			(project "MPT"
 				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10.16 11.43)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2c1e297f-9640-413f-b828-db6e79185074")
+		(property "Sheetname" "Maybe Buzzer"
+			(at 10.16 10.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mpt_buzzer.kicad_sch"
+			(at 10.16 32.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MPT"
+				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306"
+					(page "8")
 				)
 			)
 		)
@@ -4666,6 +4712,52 @@
 			(project "MPT"
 				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 152.4)
+		(size 25.4 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb23cf02-36d8-4e0c-8d61-1efd73476b0f")
+		(property "Sheetname" "User Buttons"
+			(at 96.52 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mpt_user_buttons.kicad_sch"
+			(at 96.52 174.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MPT"
+				(path "/328ebaa0-d01b-4b80-b614-bb0154e8d306"
+					(page "7")
 				)
 			)
 		)

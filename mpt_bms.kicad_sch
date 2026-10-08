@@ -1575,7 +1575,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "passive:C_0603 "
+			(property "ki_fp_filters" "passive:C_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7377,6 +7377,16 @@
 			(justify left)
 		)
 		(uuid "aee5711e-a790-4622-b9cd-3fd9adfb69e7")
+	)
+	(text "VDD Anschliessen"
+		(exclude_from_sim no)
+		(at 228.854 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af9fae00-92d1-4ec5-94d5-238059190f3c")
 	)
 	(text "Mode: Automatically transition\nbetween PWM and PFM Mode\n"
 		(exclude_from_sim no)

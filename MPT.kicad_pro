@@ -671,7 +671,7 @@
         "uuid": "328ebaa0-d01b-4b80-b614-bb0154e8d306"
       }
     ],
-    "used_designators": "J1-2,J101,#FLG1-4,R1-29,R101-104,R107,R115,SW1-3,SW101-102,Q1,U1-6,U101,L1-3,L102-103,D1-2,D104,C1-10,C109,BT1-4,#PWR1-46,#PWR110-117,#PWR123-128,#PWR141",
+    "used_designators": "J101,#FLG1-4,R1-9,R11-20,R101-104,R107,R115,SW1-2,SW101-102,U1,U4-6,U101,L2,L102-103,D1,D104,C1-9,C109,BT3-4,#PWR1-7,#PWR22-44,#PWR110-117,#PWR123-128,#PWR141",
     "variants": []
   },
   "sheets": [
@@ -698,6 +698,14 @@
     [
       "616a7458-ab0e-4b4c-b3d0-68e4c0357e5e",
       "Display"
+    ],
+    [
+      "cb23cf02-36d8-4e0c-8d61-1efd73476b0f",
+      "User Buttons"
+    ],
+    [
+      "2c1e297f-9640-413f-b828-db6e79185074",
+      "Maybe Buzzer"
     ]
   ],
   "text_variables": {},

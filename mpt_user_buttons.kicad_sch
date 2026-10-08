@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "42b5a415-12ae-4c67-b8ca-124f9f8b2a94")
+	(paper "A4")
+	(title_block
+		(company "Hochschule Luzern, Technik & Architektur")
+	)
+	(lib_symbols)
+)
