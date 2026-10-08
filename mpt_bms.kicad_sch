@@ -5,7 +5,8 @@
 	(uuid "2fd79b0b-d902-42b8-a35b-c9431892ead1")
 	(paper "A4")
 	(title_block
-		(title "M.P.T.H BMS")
+		(title "M.P.T BMS")
+		(company "Hochschule Luzern, Technik & Architektur")
 	)
 	(lib_symbols
 		(symbol "db:capacitor/01.018.0008.0001"

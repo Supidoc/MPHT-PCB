@@ -5,6 +5,7 @@
 	(uuid "42b5a415-12ae-4c67-b8ca-124f9f8b2a94")
 	(paper "A4")
 	(title_block
+		(title "M.P.T User Buttons")
 		(company "Hochschule Luzern, Technik & Architektur")
 	)
 	(lib_symbols)

@@ -4546,7 +4546,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_SDA" input
+		(pin "I2C_SDA" bidirectional
 			(at 54.61 158.75 180)
 			(uuid "73320ddb-6985-4f8b-8e6b-9dd8335f4cd7")
 			(effects
